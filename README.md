@@ -12,7 +12,7 @@ The version of this resource corresponds to the version of kubectl. We recommend
 
  - `zlabjp/kubernetes-resource:1.17` ([stable-1.17](https://storage.googleapis.com/kubernetes-release/release/stable-1.17.txt))
  - `zlabjp/kubernetes-resource:1.16` ([stable-1.16](https://storage.googleapis.com/kubernetes-release/release/stable-1.16.txt))
- - `zlabjp/kubernetes-resource:1.15` ([stable-1.15](https://storage.googleapis.com/kubernetes-release/release/stable-1.15.txt))
+ - `zlabjp/kubernetes-resource:1.18` ([stable-1.18](https://storage.googleapis.com/kubernetes-release/release/stable-1.18.txt))
  - `zlabjp/kubernetes-resource:latest` ([latest](https://storage.googleapis.com/kubernetes-release/release/latest.txt))
 
 ## Source Configuration
