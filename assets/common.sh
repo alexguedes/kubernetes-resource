@@ -39,6 +39,7 @@ setup_kubectl() {
   elif [[ -n "$kubeconfig" ]]; then
     echo "$kubeconfig" > "$KUBECONFIG"
     echo "$KUBECONFIG"
+    cat $(echo $KUBECONFIG)
   else
     # Optional. The address and port of the API server. Requires token.
     local server
