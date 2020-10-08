@@ -20,6 +20,7 @@ setup_kubectl() {
 
   KUBECONFIG="$(mktemp "$TMPDIR/kubernetes-resource-kubeconfig.XXXXXX")"
   export KUBECONFIG
+  chmod 500 $KUBECONFIG
 
   # Optional. The path of kubeconfig file
   local kubeconfig_file
@@ -37,6 +38,7 @@ setup_kubectl() {
     cat "$kubeconfig_file" > "$KUBECONFIG"
   elif [[ -n "$kubeconfig" ]]; then
     echo "$kubeconfig" > "$KUBECONFIG"
+    echo "$KUBECONFIG"
   else
     # Optional. The address and port of the API server. Requires token.
     local server
